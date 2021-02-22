@@ -1276,3 +1276,4 @@ class ZdNationcode(models.Model):
     class Meta:
         managed = True
         db_table = 'zd_nationcode'
+# class Piuser(models.Model):
