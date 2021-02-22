@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'apps.bizlogic',
     'apps.hadmin',
     'apps.api',
-    'apps.front'
+    'apps.front',
+    'apps.application'
 ]
 
 MIDDLEWARE = [
