@@ -25,5 +25,6 @@ urlpatterns = [
     url(r'^piusertest/$', PiuserTest.as_view(), name='piusertest'),
     url(r'^Admin/', include('apps.hadmin.urls')),
     url(r'^Api/', include('apps.api.urls')),
-    url(r'^Front/', include('apps.front.urls'))
+    url(r'^Front/', include('apps.front.urls')),
+    url(r'^Application/', include('apps.application.urls'))
 ]
